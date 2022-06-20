@@ -1,0 +1,28 @@
+{
+  "name": "@gagel/gagel-parser",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "hanje <jerryhiian@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "types": "./typings/gagel-parser.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "typings"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "charcodes": "^0.2.0"
+  }
+}
